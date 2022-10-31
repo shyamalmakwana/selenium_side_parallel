@@ -1,0 +1,13 @@
+{    
+  "dependencies": {
+    "selenium-side-runner"
+    "npm-run-all"
+  },	
+	"scripts": {	
+    	"test": "run-p chrome chrome ff safari",
+    	"chrome": "selenium-side-runner 654SportsBetTest_updated.side --config-file chrome.side.yml", 
+    	"chrome": "selenium-side-runner 654SportsBetTest.side --config-file chrome.side.yml", 
+    	"ff": "selenium-side-runner 654SportsBetTest_updated.side --config-file ff.side.yml", 
+    	"safari": "selenium-side-runner 654SportsBetTest_updated.side --config-file safari.side.yml" 
+  }
+}

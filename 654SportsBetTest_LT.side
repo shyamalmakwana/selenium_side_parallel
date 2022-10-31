@@ -1,0 +1,224 @@
+{
+  "id": "d509b605-e21c-4eed-b600-1525dd5e6d61",
+  "version": "2.0",
+  "name": "654SportsBetTest",
+  "url": "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo",
+  "tests": [{
+    "id": "72fbce05-18f8-468d-9f10-0906042ef8f1",
+    "name": "NFLWeek1_Top6Teams",
+    "commands": [{
+      "id": "bfff3397-5090-45dc-96aa-8fd794b79bf9",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "345de7dc-6c24-4b12-be1e-88b8418e706a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1adca5f0-08ef-4f60-89cf-8e24bbc42a05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb48a9a3-9e89-4a70-9e26-4ad698cf2876",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.input-container:nth-child(2) .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Justin"
+    }, {
+      "id": "5af4200b-f8b2-4efb-9ab6-1ef4a67f8ce9",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.input-container:nth-child(3) .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "User@123"
+    }, {
+      "id": "54012357-18bf-44fa-ad54-f353845fd172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab815885-d3a4-4be1-bcf0-7ec1d3cde81b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf47071-ffc1-4c9d-a093-c9597fd6e42f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .MuiGrid-root:nth-child(3)",
+      "targets": [
+        ["css=.MuiGrid-root:nth-child(2) > .MuiGrid-root .MuiGrid-root:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[5]/div/div/div[2]/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c47bbb7-1145-4063-aff6-8d7ee09b383e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-capitlize",
+      "targets": [
+        ["css=.text-capitlize", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4cba28c-8547-4b74-a300-e278c13b5409",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit-lg-btn",
+      "targets": [
+        ["css=.submit-lg-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df6163be-076a-410c-8e3f-b18060491486",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-text",
+      "targets": [
+        ["css=.MuiButton-text", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1ff2a058-89de-49ba-b4cf-569f253ef6c1",
+    "name": "Test_1",
+    "commands": [{
+      "id": "2c0c1094-0f42-4953-877c-b7e074b5bf28",
+      "comment": "",
+      "command": "open",
+      "target": "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a015004d-e802-4aff-90d4-4cde87657298",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x578",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86427d1e-6287-4923-bb70-9f82ca66231a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664ff506-f8e3-4e84-846d-2dc4ce05390b",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.Mui-focused > .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0070c29d-a973-4a90-8e56-cd79a73ea048",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.Mui-focused > .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Justin"
+    }, {
+      "id": "c82d82bd-2e30-4342-8b97-2a4f63b5eb0e",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.Mui-focused > .MuiInput-input", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "User@123"
+    }, {
+      "id": "6343a13c-db5c-45e4-9b9b-bf16c4fa2507",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8013a19-ee07-422f-a5a8-702abda36bf9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton-root",
+      "targets": [
+        ["css=.MuiButton-root", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "88b3c370-34ff-425c-b1bd-f9577c88cd11",
+    "name": "654SportsBet",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://staging.d1naaleerhhgb0.amplifyapp.com/", "https://staging.d1naaleerhhgb0.amplifyapp.com/demo/demo"],
+  "plugins": []
+}

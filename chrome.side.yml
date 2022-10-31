@@ -1,0 +1,14 @@
+# this is how your .side.yml should look like
+# capabilities:
+#    "browserName": "Chrome"
+#    "version": "105.0"
+#    "platform": "Windows 10"   
+#    # selenium_version: "4.0.0"
+---
+capabilities:  
+  LT:Options:
+    browserName: chrome
+  browserName: chrome
+  version: 106
+  platform: Windows 10
+server: "https://username:accesskey@hub.lambdatest.com/wd/hub"
